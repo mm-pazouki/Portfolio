@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Contents/index.css" />
+  <link rel="stylesheet" href="./Contents/Popup.css" />
+  <link rel="stylesheet" href="./Contents/FormValidation.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/bee9655978.js" crossorigin="anonymous"></script>
+  <meta name="Portfolio" content="this is a portfolio by Mohammad Mehdi Pazouki.">
+
+
+  <title>Mohammad Mehdi Pazouki</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav id="header_nav">
+      <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+      <ul id="desktop-nav">
+        <li>
+          <a href="#intro">Hello</a>
+        </li>
+        <li>
+          <a href="#Projects">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact-form">contact</a>
+        </li>
+      </ul>
+      <i class="fa-solid fa-xmark" id="closeMenuBtn"></i>
+      <ul id="mobile-nav">
+        <li>
+          <a href="#intro">Hello</a>
+        </li>
+        <li>
+          <a href="#Projects">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact-form">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="intro">
+    <div>
+      <h1>Mohammad Mehdi Pazouki</h1>
+      <p>
+        Hello! I am a software developer! I can help you build a product,
+        feature or website. Take a look of my works. If you like what you see
+        and have a project you need coded, don't hesitate and contact me.
+      </p>
+      <button type="button" class="dark small">Start collaboration</button>
+      <div id="logo"></div>
+    </div>
+  </section>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <section id="Projects">
+    <h1>Projects</h1>
+  </section>
+  <section id="about">
+    <div id="about-info">
+      <h1>About</h1>
+      <p>
+        Hello! I am a software developer! I can help you build a product,
+        feature or website. Take a look of my works. If you like what you see
+        and have a project you need coded, don't hesitate and contact me.
+      </p>
+    </div>
+    <button type="button" class="dark small">Get my CV &#10515;</button>
+
+    <ul id="skills-and-frameworks">
+      <li>Languages
+        <ul id="Languages">
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </li>
+      <li>Frameworks
+        <ul id="frameworks">
+          <li>Bootstrap</li>
+          <li>Django</li>
+          <li>Rest</li>
+          <li>Celery</li>
+        </ul>
+      </li>
+      <li>Skills
+        <ul id="skills">
+          <li>Postgres</li>
+          <li>RabbitMQ</li>
+          <li>GitHub</li>
+          <li>Linux</li>
+          <li>Docker</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <form action="https://formspree.io/f/xeqdoajj" method="POST" id="contact-form">
+    <h1>Get Started</h1>
+    <p>I Prefer To Speak By My Gestures.</p>
+    <fieldset>
+      <label for="customer-name">
+        Your name <span class="errorText"></span>
+        <br />
+        <input id="customer-name" name="customer-name" type="text" placeholder="Full name" maxlength="30" required />
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="customer-email">
+        Your email <span class="errorText"></span>
+        <br />
+        <input id="customer-email" name="customer-email" type="email" placeholder="something@domain.com" required />
+      </label>
+    </fieldset>
+    <span class="errorText"></span>
+    <textarea id="customer-message" name="customer-message" maxlength="500" placeholder="Enter your message here..."
+      required></textarea>
+    <span class="errorText" id="submitError"></span>
+    <button id="btn-submit" class="dark small" type="button" name="submit1">Start collaboration</button>
+  </form>
+  <section id="footer">
+    <a href="https://www.linkedin.com/in/mohammad-mehdi-pazouki/" target="_blank" rel="noopener">Get my CV &#10515;</a>
+    <ul>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+    </ul>
+  </section>
+  <div id="popup">
+    <i class="fa-solid fa-xmark" id="closePopup"></i>
+    <h2 id="popupHeader">POPUP HEADER</h2>
+    <ul id="popupTools">
+    </ul>
+    <img id="popupImage" src="./Contents/Resources/Pictures/Correspondence_img.jpg" alt="">
+    <p id="popupText">
+    </p>
+    <div id="buttonContainer">
+      <button class="light" id="projectLink">See Live <i class="fa-solid fa-right-from-bracket"></i></button>
+      <button class="dark" id="projectSource">See source <i class="fa-brands fa-github"></i></button>
+    </div>
+    <div id="otherProjects">
+      <a>
+        &#10229; Previous Project
+      </a>
+      <a>
+        next Project &#10230;
+      </a>
+    </div>
+  </div>
+  <script src="./Scripts/Index-mobile.js"></script>
+  <script src="./Scripts/Popup.js"></script>
+  <script src="./Scripts/FormValidation.js"></script>
+  <script src="./Scripts/LocalStorage.js"></script>
+</body>
+
+</html>

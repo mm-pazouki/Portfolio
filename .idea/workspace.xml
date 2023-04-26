@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8311f9b-0fa6-4257-a5a9-918f7fafbda9" name="Changes" comment="Project mobile version HTML and CSS file finished.">
-      <change afterPath="$PROJECT_DIR$/Contents/FormValidation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contents/Popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/FormValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Index-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/LocalStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Popup.js" afterDir="false" />
+    <list default="true" id="a8311f9b-0fa6-4257-a5a9-918f7fafbda9" name="Changes" comment="JavaScript functions added.&#10;Some issues of fonts and css solved.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contents/FormValidation.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contents/FormValidation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contents/Popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contents/Popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contents/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contents/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682530918688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JavaScript functions added.&#10;Some issues of fonts and css solved.">
+      <created>1682537868559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537868560</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prepared files for start programing the project." />
     <MESSAGE value="Project mobile version HTML and CSS file finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project mobile version HTML and CSS file finished." />
+    <MESSAGE value="JavaScript functions added.&#10;Some issues of fonts and css solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript functions added.&#10;Some issues of fonts and css solved." />
   </component>
 </project>

@@ -7,10 +7,11 @@ body {
   background-color: #f9f9fa;
   color: #1a2236;
   margin: 0;
+  padding-bottom: 10%;
   background-image: url(./Resources/image_geometry_2.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top calc(100vh - 100px) right;
+  background-position: top calc(20% - 0%) right;
   display: flex;
   flex-direction: column;
   align-content: center;

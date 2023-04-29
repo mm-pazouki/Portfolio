@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8311f9b-0fa6-4257-a5a9-918f7fafbda9" name="Changes" comment="Readme fixed.&#10;Form placeholder fixed.&#10;About fixed." />
+    <list default="true" id="a8311f9b-0fa6-4257-a5a9-918f7fafbda9" name="Changes" comment="readme fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +116,7 @@
       <updated>1682693613869</updated>
       <workItem from="1682693618604" duration="5986000" />
       <workItem from="1682738812108" duration="3196000" />
+      <workItem from="1682742426191" duration="747000" />
     </task>
     <task id="LOCAL-00007" summary="Headers changed&#10;P font size fixed.&#10;decoration fixed&#10;bold title removed&#10;key features and starter method not include because it is personal portfolio and I dont think this project would be useful for anyone. and other thing what you want from portfolio? key features? yes it can buy bread every morning :|">
       <created>1682699110390</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682741668050</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="readme fixed">
+      <created>1682742572452</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682742572452</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +171,7 @@
     <MESSAGE value="Headers changed&#10;P font size fixed.&#10;decoration fixed&#10;bold title removed&#10;key features and starter method not include because it is personal portfolio and I dont think this project would be useful for anyone. and other thing what you want from portfolio? key features? yes it can buy bread every morning :|" />
     <MESSAGE value="Linter fixed" />
     <MESSAGE value="Readme fixed.&#10;Form placeholder fixed.&#10;About fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme fixed.&#10;Form placeholder fixed.&#10;About fixed." />
+    <MESSAGE value="readme fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme fixed" />
   </component>
 </project>

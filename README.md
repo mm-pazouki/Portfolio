@@ -56,11 +56,26 @@
   </ul>
 </details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **It has MIT License**
+- **It has HTML files**
+- **It has JavaScript files**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://google.com)
+[//]: # (- [Live Demo]&#40;https://google.com&#41;)
 
 
 <!-- AUTHORS -->
@@ -73,6 +88,14 @@
 - GitHub: [@mm-pazouki](https://github.com/mm-pazouki)
 - Twitter: [@mm-pazouki](https://twitter.com/mm-pazouki)
 - LinkedIn: [Mohammad Mehdi Pazouki](https://linkedin.com/in/mohammad-mehdi-pazouki)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add JS file]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

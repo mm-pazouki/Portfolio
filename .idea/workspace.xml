@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8311f9b-0fa6-4257-a5a9-918f7fafbda9" name="Changes" comment="Headers changed&#10;P font size fixed.&#10;decoration fixed&#10;bold title removed&#10;key features and starter method not include because it is personal portfolio and I dont think this project would be useful for anyone. and other thing what you want from portfolio? key features? yes it can buy bread every morning :|" />
+    <list default="true" id="a8311f9b-0fa6-4257-a5a9-918f7fafbda9" name="Changes" comment="Linter fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contents/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contents/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682693613869</updated>
-      <workItem from="1682693618604" duration="5257000" />
+      <workItem from="1682693618604" duration="5986000" />
+      <workItem from="1682738812108" duration="2648000" />
     </task>
     <task id="LOCAL-00007" summary="Headers changed&#10;P font size fixed.&#10;decoration fixed&#10;bold title removed&#10;key features and starter method not include because it is personal portfolio and I dont think this project would be useful for anyone. and other thing what you want from portfolio? key features? yes it can buy bread every morning :|">
       <created>1682699110390</created>
@@ -121,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682699110390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Linter fixed">
+      <created>1682699726525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682699726525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +157,7 @@
     <MESSAGE value="JavaScript functions added.&#10;Some issues of fonts and css solved." />
     <MESSAGE value="Image fixed. And there is not a rule to completely copy the Figma template." />
     <MESSAGE value="Headers changed&#10;P font size fixed.&#10;decoration fixed&#10;bold title removed&#10;key features and starter method not include because it is personal portfolio and I dont think this project would be useful for anyone. and other thing what you want from portfolio? key features? yes it can buy bread every morning :|" />
-    <option name="LAST_COMMIT_MESSAGE" value="Headers changed&#10;P font size fixed.&#10;decoration fixed&#10;bold title removed&#10;key features and starter method not include because it is personal portfolio and I dont think this project would be useful for anyone. and other thing what you want from portfolio? key features? yes it can buy bread every morning :|" />
+    <MESSAGE value="Linter fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linter fixed" />
   </component>
 </project>

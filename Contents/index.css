@@ -129,7 +129,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 4vh;
+  font-size: 3.5vh;
   line-height: 27px;
   color: #fff;
   margin: 5vh 4vw;
@@ -167,7 +167,7 @@ a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 8vw;
+  font-size: 6vw;
   color: #fff;
 }
 
@@ -190,7 +190,7 @@ a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 24px;
   text-align: left;
   background-color: transparent;
   color: #fff;
@@ -254,6 +254,8 @@ a {
   font-size: 45px;
   line-height: 60px;
   color: #fff;
+  margin: 20px;
+  padding: 20px;
 }
 
 .about__text {
@@ -300,12 +302,13 @@ a {
 .about__ul {
   list-style-type: disc;
   padding-left: 4vw;
+  margin: 20px;
 }
 
 .about__li {
   font-style: normal;
   font-weight: 600;
-  font-size: 29px;
+  font-size: 28px;
   margin: 0 5vw;
   line-height: 60px;
   letter-spacing: -0.0525em;
@@ -394,6 +397,7 @@ a {
 
 ::placeholder {
   position: absolute;
+  margin: 20px;
 }
 
 .contact__button {
@@ -1304,6 +1308,7 @@ a {
   .languages {
     grid-column: 1/2;
     grid-row: 1/2;
+    padding: 6px;
   }
 
   .frameworks {

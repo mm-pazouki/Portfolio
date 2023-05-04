@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   body {
     background-image: none;
   }
@@ -14,7 +14,6 @@
     box-sizing: border-box;
     background-image: none;
     border-bottom: 1px solid gray;
-    outline: 1px solid orange;
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(8px);
     z-index: 2;
@@ -31,7 +30,7 @@
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
     display: flex;
     flex-direction: row;
@@ -74,8 +73,9 @@
   }
 
   form > h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     text-align: center;
+    font-family: Math;
   }
 
   form > button {
@@ -101,7 +101,7 @@
   }
 
   #intro h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
 
   #intro p {
@@ -109,12 +109,12 @@
   }
 
   button.small {
-    width: 50% !important;
+    width: 40% !important;
     transition: all 0.3s ease-in-out;
   }
 
   button.small:hover {
-    width: 55% !important;
+    width: 45% !important;
   }
 
   #Projects {
@@ -205,6 +205,7 @@
   section#footer a {
     color: #98dede;
     text-decoration: none;
+    margin-right: 65%;
   }
 
   section#footer a:hover {

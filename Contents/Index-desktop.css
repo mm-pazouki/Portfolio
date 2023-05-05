@@ -75,7 +75,7 @@
   form > h1 {
     font-size: 7rem;
     text-align: center;
-    font-family: math;
+    font-family: 'math';
   }
 
   form > button {
@@ -133,7 +133,7 @@
     font-size: 7rem;
     background-position: right bottom;
     transform: rotate(-90deg);
-    font-family: math;
+    font-family: 'math';
   }
 
   .project {

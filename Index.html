@@ -1,269 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio : Mohammad Mehdi Pazouki</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./Contents/index.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Contents/index.css" />
+  <link rel="stylesheet" href="./Contents/Popup.css" />
+  <link rel="stylesheet" href="./Contents/FormValidation.css">
+  <link rel="stylesheet" href="./Contents/Index-desktop.css" />
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/bee9655978.js" crossorigin="anonymous"></script>
+  <meta name="Portfolio" content="this is a portfolio by Mohammad Mehdi Pazouki.">
+
+  <title>Mohammad Mehdi Pazouki</title>
 </head>
+
 <body>
-    <header class="position__nav toolbar">
-        <div class="corner__geometry  mobile__header">
-            <img class="mobile__visible" src="./Contents/Resources/Pictures/image_geometry_1.svg" alt="">
-            <img class="mobile__invisible" src="./Contents/Resources/Pictures/image_geometry_1.svg" alt="">
-        </div>
-        <!-- only add the toolbar__open__rowx using javascript -->
-        <nav class="drop-down menu__button__align mobile__header">
-            <button id="hamburger">
-                <i class="fa fa-bars closed__menu"></i>
-                <img class="opened__menu cross" src="./Contents/Resources/Icons/cross.svg" alt="">
-            </button>
-        </nav>
-
-        <img class="mobile__photos mobile__invisible" src="./Contents/Resources/Icons/nav_dots.svg" alt="">
-
-        <ul class="mobile__invisible desktop__header ">
-            <li class="header__navication"><a class="nav__desktoplink" href="#headline">Hello</a></li>
-            <li class="header__navication"><a class="nav__desktoplink" href="#works">Works</a></li>
-            <li class="header__navication"><a class="nav__desktoplink" href="#about">About</a></li>
-            <li class="header__navication"><a class="nav__desktoplink" href="#contact">Contact</a></li>
+  <header id="header">
+    <nav id="header_nav">
+      <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+      <ul id="desktop-nav">
+        <li>
+          <a href="#intro">Hello</a>
+        </li>
+        <li>
+          <a href="#Projects">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact-form">contact</a>
+        </li>
+      </ul>
+      <i class="fa-solid fa-xmark" id="closeMenuBtn"></i>
+      <ul id="mobile-nav">
+        <li>
+          <a href="#intro">Hello</a>
+        </li>
+        <li>
+          <a href="#Projects">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact-form">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="intro">
+    <div>
+      <h1><b>Mohammad Mehdi Pazouki</b></h1>
+      <p>
+        Hello! I am a software developer! I can help you build a product,
+        feature or website. Take a look of my works. If you like what you see
+        and have a project you need coded, don't hesitate and contact me.
+      </p>
+      <button type="button" class="dark small">Start collaboration</button>
+      <div id="logo"></div>
+    </div>
+  </section>
+  <section id="Projects">
+    <h1>Projects</h1>
+  </section>
+  <section id="about">
+    <div id="about-info">
+      <h1>About</h1>
+      <p>
+        Hello! I am a software developer! I can help you build a product,
+        feature or website. Taka a look of my works. If you like what you see
+        and have a project you need coded, don't hesitate and contact me.
+      </p>
+    </div>
+    <button type="button" class="dark small">Get my CV &#10515;</button>
+    <ul id="skills-and-frameworks">
+      <li>Languages
+        <ul id="Languages">
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ul>
-
-        <img class="mobile__photos mobile__invisible nav__bottomImage" src="./Contents/Resources/Pictures/bottom_menu_open.svg" alt="">
-    </header>
-
-    <main class="main">
-        <section id="headline" class="headline">
-            <article class="text__article">
-                <h1 class="title">
-                    Mohammad Mehdi <br>
-                    Pazouki
-                </h1>
-                <p class="bio">
-                    Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my works. If you like what you see and have a project you need coded, don't hesitate and contact me.
-                </p>
-            </article>
-            <br>
-            <br>
-            <button class="buttons btn">
-                Start Collaboration
-            </button>
-
-            <img src="./Contents/Resources/Icons/dots.svg" alt="" class="hello__dots">
-            <img id="desktop__geometry" src="./Contents/Resources/Pictures/helloGeometry.svg" alt="">
-            <img id="geometry" src="./Contents/Resources/Pictures/image_geometry_2.svg" alt="">
-        </section>
-
-        <section id="works" class="works">
-            <h2 class="h2 portfolio__hearder">Projects</h2>
-            <article class="portfolio project__one">
-                <img src="./Contents/Resources/Pictures/Correspondence_img.jpg" alt="project one is a web site" class="project__photo project__onePhoto">
-                <div class="project__info hover__one">
-                    <h3 class="project__title">Correspondence</h3>
-                    <ul class="project__stack__container">
-                        <li class="project__stack stack1 one__stacks">HTML/CSS</li>
-                        <li class="project__stack stack3 one__stacks">JavaScript</li>
-                        <li class="project__stack stack3 one__stacks">SQL</li>
-                    </ul>
-                    <div class="project__button__holder">
-                        <button class="buttons project__button">
-                            See this project
-                            <span class="icon arrow material-symbols-outlined">
-                                arrow_right_alt
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </article>
-            <article class="portfolio project__two">
-                <img src="./Contents/Resources/Pictures/Evaluation_img.jpg" alt="" class="project__photo project__twoPhoto">
-                <div class="project__info hover__two">
-                    <h3 class="project__title">Evaluation</h3>
-                    <ul class="project__stack__container">
-                        <li class="project__stack stack1">HTML/CSS</li>
-                        <li class="project__stack stack2">Python</li>
-                        <li class="project__stack stack2">SQL</li>
-                        <li class="project__stack stack3">JavaScript</li>
-                    </ul>
-                    <div class="project__button__holder">
-                        <button class="buttons project__button">
-                            See this project
-                            <span class="icon arrow material-symbols-outlined">
-                                arrow_right_alt
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </article>
-            <img src="./Contents/Resources/Icons/dots.svg" alt="" class="portofolio__topLeft__dots">
-            <img src="./Contents/Resources/Pictures/Geometry-bottom-left-top.svg" alt="" class="deco__bottomLeftTop">
-            <img src="./Contents/Resources/Pictures/Geometry-bottom-left.svg" alt="" class="deco__bottomLeft">
-            <img src="./Contents/Resources/Pictures/Geometry-right.svg" alt="" class="deco__right">
-            <img src="./Contents/Resources/Pictures/GEometry_middle.svg" alt="" class="deco__middle">
-        </section>
-
-        <section id="about" class="about">
-            <article class="about__article">
-                 <h2 class="h2 about__h2">About</h2>
-                <p class="about__text">
-                    I Prefer To Speak By My Gestures
-                </p>
-
-                <button class="buttons button__getCV">
-                    Get my CV
-                    <span class="icon material-symbols-outlined">
-                        download
-                    </span>
-                </button>
-            </article>
-
-            <ul class="all">
-                <li class="languages about__lists">
-                    <h3 class="h3">Languages</h3>
-                    <ul class="about__ul">
-                        <li class="about__li">JavaScript</li>
-                        <li class="about__li">Python</li>
-                        <li class="about__li">HTML</li>
-                        <li class="about__li">CSS</li>
-                    </ul>
-                    <div class="about__icon">
-                        <img src="./Contents/Resources/Icons/Sharp.svg" alt="" class="pound__logo">
-                    </div>
-                </li>
-
-                <li class="frameworks about__lists">
-                    <h3 class="h3">Frameworks</h3>
-                    <ul class="about__ul">
-                        <li class="about__li">Bootstrap</li>
-                        <li class="about__li">Django</li>
-                        <li class="about__li">Rest</li>
-                        <li class="about__li">Celery</li>
-                    </ul>
-
-                    <div class="about__icon">
-                        <img src="./Contents/Resources/Icons/Rectangle 19.svg" alt="" class="square__logo">
-                    </div>
-                </li>
-
-                <li class="skills about__lists">
-                    <h3 class="h3">Skills</h3>
-                    <ul class="about__ul">
-                        <li class="about__li">Postgres</li>
-                        <li class="about__li">RabbitMQ</li>
-                        <li class="about__li">GitHub</li>
-                        <li class="about__li">Linux</li>
-                        <li class="about__li">Docker</li>
-                    </ul>
-
-                    <div class="about__icon">
-                        <img src="./Contents/Resources/Icons/ic_skills.svg" alt="" class="idea__logo">
-                    </div>
-                </li>
-
-                <img src="./Contents/Resources/Icons/image_dots_with_teal.svg" alt="" class="about__deco">
-            </ul>
-        </section>
-        
-        <section id="contact" class="contact">
-            <img src="./Contents/Resources/Pictures/image_geometry_1.svg" alt="" class="corner__geometry">
-            <img src="./Contents/Resources/Pictures/contact_shape_one.svg" alt="" class="contact__image__left">
-            <div class="article__form" >
-                <h2 class="h2 contact__h2">Get Started</h2>
-                <p class="contact__text">I Prefer To Speak By My Gestures</p>
-                <form action="https://formspree.io/f/xeqwnkjg" method="post" class="contact__form">
-                    <label class="label__name label" for="name">Your name <span class="red__colour">*</span></label>
-                    <input type="text" required maxlength="30" id="name" placeholder="write your name" name="name" class="name">
-                    <label class="label__email" for="email">Your email <span class="red__colour">*</span></label>
-                    <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="write your email" id="email" name="email" class="email">
-                    <label class="label__message" for="message">Message <span class="red__colour">*</span></label>
-                    <textarea maxlength="500" required placeholder="Enter your message here..." name="message" id="message" class="message"></textarea>
-                    <span class="error" aria-live="polite"></span>
-                    <input type="submit" id="submit" value="Start Collaboration" class="buttons contact__button">
-                </form>
-            </div>
-            <img src="./Contents/Resources/Pictures/contact_shape_two.svg" class="contact__image__right" alt="">
-        </section>
-        <section class="portfolio__PopUP">
-            <button id="cross__project">
-                <img class="cross" src="./Contents/Resources/Icons/cross.svg" alt="">
-            </button>
-            <ul class="stack__popUp">
-                <li class="pop__stack__element">HTML/CSS</li>
-                <li class="pop__stack__element ruby">Django</li>
-                <li class="pop__stack__element">JavaScript</li>
-            </ul>
-            <h1 class="pop__title">Project</h1>
-            <div class="stack__popUp">
-            </div>
-            <div class="pop__images">
-                <img class="image__project big__image" src="" alt="">
-                <button class="pop__images__nav pop__display__left pop__images__left">
-                    <span class="material-symbols-outlined">
-                        arrow_back_ios
-                    </span>
-                </button>
-                <button class="pop__images__nav pop__display__right pop__images__right">
-                    <span class="material-symbols-outlined">
-                        arrow_forward_ios
-                    </span>
-                </button>
-                <img class="image__project small__image" src="" alt="">
-                <img class="image__project small__image" src="" alt="">
-                <img class="image__project small__image" src="" alt="">
-                <img class="image__project small__image" src="" alt="">
-            </div>
-            <p class="text__pop__one"></p>
-            <p class="text__pop__two"></p>
-            <div class="pop__info__buttons">
-                <a class="buttons__inverse live__link see__pop">
-                    See live
-                    <span class="icon material-symbols-outlined">
-                        open_in_new
-                    </span>
-                </a>
-                <a class="buttons__inverse source__link see__pop">
-                    See Source
-                    <i class="fa fa-brands fa-github"></i>
-                </a>
-            </div>
-            <div class="navigation__buttons">
-                <button class="buttons__inverse nav__pop__prev nav__pop__down">
-                    <i class="fa fa-solid fa-arrow-left"></i>
-                    previous project
-                </button>
-                <button class="buttons__inverse nav__pop__next nav__pop__down">
-                    next project
-                    <i class="fa fa-light fa-arrow-right"></i>
-                </button>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <button class="buttons footer__button">
-            <h4 class="footer__button__text">Get my resume</h4>
-            <img class="footer__button__image" src="./Contents/Resources/Icons/download_Resume.svg" alt="download my resume">
-        </button>
-
-        <ul class="socials">
-            <li href=""><img src="./Contents/Resources/Icons/ic_stackoverflow.svg" alt="go to my stackoverflow" class="social"></li>
-            <li href=""><img src="./Contents/Resources/Icons/ic_github.svg" alt="go to my github" class="social"></li>
-            <li href=""><img src="./Contents/Resources/Icons/ic_twitter.svg" alt="go to my twitter" class="social"></li>
-            <li href=""><img src="./Contents/Resources/Icons/ic_linkedin.svg" alt="go to my linkendin" class="social"></li>
-            <li href=""><img src="./Contents/Resources/Icons/ic_medium.svg" alt="go to my M" class="social"></li>
-            <li href=""><img src="./Contents/Resources/Icons/fingers.svg" alt="go to my M" class="social"></li>
+      </li>
+      <li>Frameworks
+        <ul id="frameworks">
+          <li>Bootstrap</li>
+          <li>Django</li>
+          <li>Rest</li>
+          <li>Celery</li>
+          <li>Postgres</li>
         </ul>
-    </footer>
+      </li>
+      <li>Skills
+        <ul id="skills">
+          <li>Problem solving</li>
+          <li>Agile</li>
+          <li>GitHub</li>
+          <li>GitLab</li>
+          <li>Terminal</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <form action="https://formspree.io/f/xeqwnkjg" method="POST" id="contact-form">
+    <h1>Get Started</h1>
+    <p>I prefer to speak by my gestgures.
+    </p>
+    <fieldset>
+      <label for="customer-name">
+        Your name <span class="errorText"></span>
+        <br />
+        <input id="customer-name" name="customer-name" type="text" placeholder="Full name" maxlength="30" required />
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="customer-email">
+        Your email <span class="errorText"></span>
+        <br />
+        <input id="customer-email" name="customer-email" type="email" placeholder="something@domain.com" required />
+      </label>
+    </fieldset>
+    <span class="errorText"></span>
+    <textarea id="customer-message" name="customer-message" maxlength="500" placeholder="Enter your message here..."
+      required></textarea>
+    <span class="errorText" id="submitError"></span>
+    <button id="btn-submit" class="dark small" type="button" name="submit1">Start collaboration</button>
+  </form>
+  <section id="footer">
+    <a href="https://www.linkedin.com/in/mohammad-mehdi-pazouki/" target="_blank" rel="noopener">Get my CV &#10515;</a>
+    <ul>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+    </ul>
+  </section>
+  <div id="popup">
+    <i class="fa-solid fa-xmark" id="closePopup"></i>
+    <h2 id="popupHeader">POPUP HEADER</h2>
+    <ul id="popupTools">
+    </ul>
+    <img id="popupImage" src="./Contents/Resources/Pictures/Correspondence_img.jpg" alt="">
+    <p id="popupText">
+    </p>
+    <div id="buttonContainer">
+      <button class="light" id="projectLink">See Live <i class="fa-solid fa-right-from-bracket"></i></button>
+      <button class="dark" id="projectSource">See source <i class="fa-brands fa-github"></i></button>
+    </div>
+    <div id="otherProjects">
+      <a>
+        &#10229; Previous Project
+      </a>
+      <a>
+        next Project &#10230;
+      </a>
+    </div>
+  </div>
+  <script src="./Scripts/Index-mobile.js"></script>
+  <script src="./Scripts/Popup.js"></script>
+  <script src="./Scripts/FromValidation.js"></script>
+  <script src="./Scripts/LocalStorage.js"></script>
 </body>
 
-<script src="./Scripts/Index-mobile.js"></script>
-<script src="./Scripts/FormValidation.js"></script>
-<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </html>

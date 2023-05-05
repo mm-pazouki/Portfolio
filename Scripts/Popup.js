@@ -21,7 +21,7 @@ function createProjects() {
         <h2></h2>
         <ul>
         </ul>
-        <button type="button" onclick='openProject(this)' class="dark">See this project &#8594;</button>
+        <button type="button" onclick='openProject(this)' class="light">See this project &#8594;</button>
       </div>`;
 
   const projects = document.getElementById('Projects');

@@ -75,7 +75,7 @@
   form > h1 {
     font-size: 7rem;
     text-align: center;
-    font-family: Cambria;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   form > button {

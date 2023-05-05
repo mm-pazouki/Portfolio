@@ -75,7 +75,7 @@
   form > h1 {
     font-size: 7rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: math;
   }
 
   form > button {
@@ -133,6 +133,7 @@
     font-size: 7rem;
     background-position: right bottom;
     transform: rotate(-90deg);
+    font-family: math;
   }
 
   .project {
@@ -205,7 +206,7 @@
   section#footer a {
     color: #98dede;
     text-decoration: none;
-    margin-right: 65%;
+    margin-right: 45%;
   }
 
   section#footer a:hover {

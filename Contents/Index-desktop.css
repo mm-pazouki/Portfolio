@@ -133,7 +133,7 @@
     font-size: 7rem;
     background-position: right bottom;
     transform: rotate(-90deg);
-    font-family: Cambria;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .project {

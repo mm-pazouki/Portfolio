@@ -162,7 +162,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+  open index.html in browser
 ```
 
 

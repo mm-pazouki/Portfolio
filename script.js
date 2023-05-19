@@ -221,7 +221,7 @@ function showError(text) {
           emailBox.style.border = 'none';
           error.style.opacity = 0;
         }});
-
+   emailBox.style.border = '4px solid red';
     if (!error.style.opacity) {
         error.style.opacity = 1;
     } // end if

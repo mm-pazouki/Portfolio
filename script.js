@@ -216,7 +216,7 @@ function showError(text) {
   });
   error.style.opacity = 1;
   emailBox.style.boxShadow = 'red 0 3px 0 0, red 0 0 0 3px';
-  // }
+ // }
 
   const outInterval = setInterval(() => {
     error.style.opacity -= 0.02;

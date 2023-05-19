@@ -268,3 +268,12 @@ nameBox.addEventListener('input', () => {
   userInfo.name = nameBox.value;
   localStorage.userInfo = JSON.stringify(userInfo);
 });
+emailBox.addEventListener('input', () => {
+  userInfo.email = emailBox.value;
+  localStorage.userInfo = JSON.stringify(userInfo);
+});
+messageBox.addEventListener('input', () => {
+  userInfo.message = messageBox.value;
+  localStorage.userInfo = JSON.stringify(userInfo);
+});
+});

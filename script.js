@@ -259,33 +259,22 @@ submitButton.addEventListener('click', () => {
 var userInfo = { name: '', email: '', message: '' };
 if (localStorage.userInfo != undefined) {
   userInfo = JSON.parse(localStorage.userInfo);
-  nameBox.value = userInfo.name;
-  emailBox.value = userInfo.email;
-  messageBox.value = userInfo.message;
+  nameBox.value = (userInfo.name ? userInfo.name : '');
+  emailBox.value = (userInfo.email ? userInfo.email : '');
+  messageBox.value = (userInfo.message ? userInfo.message : '');
 }
 
-// Add event listener to capture changes in the name input field
 nameBox.addEventListener('input', () => {
-// Update the userInfo object's name property with the current value of the nameBox element
-userInfo.name = nameBox.value;
-
-// Store the updated userInfo object in the local storage as a JSON string
-localStorage.userInfo = JSON.stringify(userInfo);
+  userInfo.name = nameBox.value;
+  localStorage.userInfo = JSON.stringify(userInfo);
 });
-// Add event listener to capture changes in the email input field
+
 emailBox.addEventListener('input', () => {
-// Update the userInfo object's email property with the current value of the emailBox element
-userInfo.email = emailBox.value;
-
-// Store the updated userInfo object in the local storage as a JSON string
-localStorage.userInfo = JSON.stringify(userInfo);
+  userInfo.email = emailBox.value;
+  localStorage.userInfo = JSON.stringify(userInfo);
 });
 
-// Add event listener to capture changes in the message input field
 messageBox.addEventListener('input', () => {
-// Update the userInfo object's message property with the current value of the messageBox element
-userInfo.message = messageBox.value;
-
-// Store the updated userInfo object in the local storage as a JSON string
-localStorage.userInfo = JSON.stringify(userInfo);
+  userInfo.message = messageBox.value;
+  localStorage.userInfo = JSON.stringify(userInfo);
 });

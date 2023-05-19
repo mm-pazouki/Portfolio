@@ -264,9 +264,13 @@ if (localStorage.userInfo != undefined) {
   messageBox.value = userInfo.message;
 }
 
+// Add event listener to capture changes in the name input field
 nameBox.addEventListener('input', () => {
-  userInfo.name = nameBox.value;
-  localStorage.userInfo = JSON.stringify(userInfo);
+// Update the userInfo object's name property with the current value of the nameBox element
+userInfo.name = nameBox.value;
+
+// Store the updated userInfo object in the local storage as a JSON string
+localStorage.userInfo = JSON.stringify(userInfo);
 });
 // Add event listener to capture changes in the email input field
 emailBox.addEventListener('input', () => {

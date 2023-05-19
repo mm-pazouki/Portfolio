@@ -268,12 +268,20 @@ nameBox.addEventListener('input', () => {
   userInfo.name = nameBox.value;
   localStorage.userInfo = JSON.stringify(userInfo);
 });
+// Add event listener to capture changes in the email input field
 emailBox.addEventListener('input', () => {
-  userInfo.email = emailBox.value;
-  localStorage.userInfo = JSON.stringify(userInfo);
+// Update the userInfo object's email property with the current value of the emailBox element
+userInfo.email = emailBox.value;
+
+// Store the updated userInfo object in the local storage as a JSON string
+localStorage.userInfo = JSON.stringify(userInfo);
 });
+
+// Add event listener to capture changes in the message input field
 messageBox.addEventListener('input', () => {
-  userInfo.message = messageBox.value;
-  localStorage.userInfo = JSON.stringify(userInfo);
-});
+// Update the userInfo object's message property with the current value of the messageBox element
+userInfo.message = messageBox.value;
+
+// Store the updated userInfo object in the local storage as a JSON string
+localStorage.userInfo = JSON.stringify(userInfo);
 });
